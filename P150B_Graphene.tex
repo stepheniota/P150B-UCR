@@ -1,0 +1,130 @@
+%% LaTeX2e Template by Stephen Iota (https://stepheniota.com/)
+%% last updated: Feb. 2019
+
+%% for papers
+%\documentclass[aps,preprint,notitlepage]{revtex4-1}
+%% https://www-d0.fnal.gov/Run2Physics/WWW/templates/revtex4.pdf
+%% https://cdn.journals.aps.org/files/revtex/auguide4-1.pdf
+%% ^^ revTeX4-1 class options
+
+%% for other
+\documentclass[10pt]{article}
+%\usepackage{geometry} % let's be honest, standard LaTeX margins are GaRbagE for most purposes
+%%%%%%%%%%%%%%%%
+%%% Packages %%%
+%%%%%%%%%%%%%%%%
+
+\usepackage[utf8]{inputenc}
+\usepackage[noadjust]{cite}
+\usepackage{lipsum}
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+%\usepackage{amsfonts}
+%\usepackage{physics} %http://ftp.math.purdue.edu/mirrors/ctan.org/macros/latex/contrib/physics/physics.pdf
+%\usepackage[thinc]{esdiff} % easy derivatives
+%\usepackage{graphicx} % \includegraphics{ }
+%\usepackage[shortlabels]{enumitem} % change labels in enum/item environments
+\usepackage[dvipsnames]{xcolor} % colored links=
+%\usepackage{footmisc} % http://mirror.utexas.edu/ctan/macros/latex/contrib/footmisc/footmisc.pdf
+\usepackage[small]{titlesec} % [small,medium,big] << controls size of *section text
+%\usepackage{fancyhdr} %http://tug.ctan.org/tex-archive/macros/latex/contrib/fancyhdr/fancyhdr.pdf
+% always put this at the end
+\usepackage[
+	colorlinks=true,
+	citecolor=NavyBlue!90!black,
+	linkcolor=NavyBlue!75!black,
+	urlcolor=green!50!black,
+	hypertexnames=false]{hyperref}
+
+ %%%%%%%%%%%%%%%%%%
+ %% New Commands %%
+ %%%%%%%%%%%%%%%%%%
+\newcommand{\email}[1]{\texttt{\href{mailto:#1}{#1}}}
+
+%% title commands
+%\renewcommand{\title}[1]{\begin{center}\Large{\textbf{#1}}\end{center}}
+%\renewcommand{\author}[1]{\begin{center}\large{#1$^*$}\end{center}}
+%\renewcommand{\email}[1]{\begin{center}\footnotesize{\texttt{$^*$\href{mailto:#1}{#1}}}\end{center}}
+%\renewcommand{\date}[1]{\begin{center}\footnotesize{\texttt{#1}}\end{center}}
+
+%% section commands
+
+%% math commands
+
+
+%%%%%%%%%%%%%%%%%%
+%% Front Matter %%
+%%%%%%%%%%%%%%%%%%
+
+%\pagenumbering{gobble} % no page numbers
+%\graphicspath{{figures/}} % set directory for figures
+%\setcounter{section}{-1} % start with section 0
+
+%\pagestyle{fancy} % i like fancyhdr's headers...
+%\thispagestyle{plain} % but not on the first page
+%\fancyhead[R]{\texttt{Iota \thepage}}
+%\fancyhead[L]{\texttt{\LaTeX \ not latex}}
+%\fancyfoot[C]{}
+
+%%%%%%%%%%%%%
+%%% Title %%%
+%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+\Large{\textbf{Graphene's Role in an \\Energy Efficient, Sustainable Future}}
+\end{center}
+\begin{center}
+Stephen Iota
+\\
+\email{siota001@ucr.edu}
+\\
+March 1, 2019%\today
+\end{center}
+
+%\section*{Introduction}
+
+
+The discovery of the electric field effect in graphene films~\cite{Novoselov2004} is one of the most cited papers of all time, and with good reason.
+Even in 2004, it was easy to foresee the immense benefit a more efficient transistor switch would have on the technology industry.
+Since Novoselov and Geim's groundbreaking paper, graphene's unique two dimensional properties have been exploited in a myriad of applications, from DNA sequencing to hydrogen storage and electronics displays that can bend~\cite{Drndic2014,Baughman2002,Hong2014}.
+One of graphene's most exciting contributions is in energy efficient, low power electronics.
+With anthropogenic climate change posing an imminent threat and with daily life relying more heavily on technology, there is a need to research and develop more efficient solar panels, higher energy density capacitors and lower power electronics. Graphene's band structure and high charge carrier mobility make it a very promising material for energy efficient devices, and has potential to develop next generation solar panels and electrochemical capacitors~\cite{Baughman2002,Hong2014,Feng2012,Liu2014}.
+
+\section*{Graphene's Electronic Stucture}
+
+Graphene is made of a single layer of carbon atoms in a hexagonal crystal lattice.
+Due to the film's two dimensionality, an electron's wavefunction in the film is quantized out of plane, and is a traveling wave in the material's plane. The hybridization of the carbon atoms' orbitals leads to graphene having zero bandgap characteristics~\cite{Novoselov2004}. At equilibrium, graphene films are found to be semimetals, where there is a small overlap $\delta\epsilon$ of the valence band and conduction band~\cite{Novoselov2004}. By applying, and adjusting, a gate voltage, the material's chemical potential can be tweaked to change its conduction properties. Graphene films can be switched from a 2D hole gas to a 2D electron gas instantly~\cite{Novoselov2004}. As a conductor, graphene has been shown to exhibit an extremely high charge carrier mobility in response to the electric field effect~\cite{Novoselov2004}. All of these properties can be exploited to make greener tech for tomorrow, and makes graphene research one of the hottest fields in condensed matter physics.
+
+\section*{Graphene Based, Energy Efficient Technology}
+
+Scientists and engineers have already started taking advantage of these properties for energy efficient devices. Two of the most notable applications are graphene-based quantum dot solar cells and graphene-based electrochemical capacitors. The former takes advantage of the zero bandgap characteristic, and the latter of the large surface area and high charge carrier mobility.
+
+\subsection*{Quantum Dot Solar Cells}
+
+In traditional semiconductor solar cells, an incident photon will excite an electron-hole pair to a higher energy level, which then will contribute to electric current due to the cell's internal chemical potential. Although there has been significant progress in semiconductor photovoltaic materials, there exist some major problems.
+For example, traditional solar cells can only absorb photons with energies greater its bandgap (typically $>1$ keV in Si-based photocells.) In addition, it has been shown by the Shockley-Queisser limit that traditional solar cell efficiency cannot exceed 33\%.
+To try to combat climate change, it is necessary to explore all avenues possible for renewable energy, and to try to increase efficiency as much as possible.
+
+In come quantum dot solar cells. Quantum dot solar cell (QDSC) is an absorbing photovoltaic material that makes use of quantum dots on its surface to convert photon capture to electron current more efficiently. Since quantum dots are essentially 0D materials, their quantized energy levels are tunable by adjusting their geometries. It has been demonstrated that QDSCs can absorb photons in the infrared spectrum, which leads to a major improvement in total energy output compared to traditional SCs~\cite{Feng2012}.
+
+Due to its excellent electric and optical properties, graphene is strong option for use QDSCs. Graphene films are often used for electron transport in solar materials~\cite{Guo2011}. Its zero bandgap has demonstrated a significant enhancement in efficient separation of photogenerated electron-hole pairs and transport of charge carriers over traditional SCs~\cite{Guo2011}. Used in conjunction with a 0D semiconductor quantum dot, graphene is used to form a uniform graphene/semiconductor interface for solar cells~\cite{Guo2011}. The best reported photoelectric conversion rate for all carbon-based systems is now up to 16\%, demonstrated in an eight-layer graphene/CdS film~\cite{Farrow2009}.
+
+Recently, steps have been taken to design quantum solar cells that more efficiently absorb the sun's fluctuating energy spectrum of photons~\cite{Arp2016}. As more major discoveries are made in this area of research, major steps in renewable energy are possible. Graphene-based photocells will help lead the way to a more sustainable future.
+
+
+\subsection*{Electrochemical devices and supercapacitors}
+In addition to solar cells, graphene's properities can be very useful in designing high capacity and energy denisty devices. Graphene is a great fit for a capacitance device, because of its large surface area and high carrier mobility. Electrochemical capacitors, sometimes referred to as supercapacitors, energy is stored at the interface between a carbon surface and the electrolyte~\cite{Niu1997}. Ordinary capacitance is inversely proportional to the interelectrode distance. In electrochemical capacitors, capacitance depends on the separation of charges on the electrode and the electrolyte.
+Supercapactiors made with carbon nanotubes can therefore be used for higher power applications than normal capacitors and batteries can, such as for regenerative braking in electric vehicles~\cite{Baughman2002}. High carrier mobility in the graphene supercapacitors also allows for instant power delivery in those same vehicles.
+
+Recently, single-walled carbon nanotubes (rolled up graphene sheets) have been investigated for their potential use in such devices~\cite{Liu2014}. It has been found that graphene-based supercapacitors can have a specific capacitance of 550 Fg$^{-1}$, compared to 100 Fg$^{-1}$ for normal carbon capacitors. Although the theoretical max has not been achieved experimentally yet (current max $\approx$ 200-300 Fg$^{-1}$), this shows that graphene research for high efficiency devices is rapidly growing and producing exciting results.
+
+\section*{No Green Future Without Graphene}
+
+Graphene, carbon-nanotubes, and their derivatives has already proven to be an integral part of next generation energy efficient appliances. Already, there are tens of large scale graphene manufacturing companies globally~\cite{Ren2014}. Although there are still many issues to be solved, the exciting potential 2D technology has been shown. With pressure rising to keep temperatures from rising 1.5 $\deg$ above pre-industrial levels, there is a need to develop sustainable technology, and graphene research and development will be leading the way.
+\newpage
+\bibliography{graphene}
+\bibliographystyle{unsrt}
+
+\end{document}
